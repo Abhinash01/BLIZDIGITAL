@@ -8,6 +8,7 @@ html, body {
   width: 100%;
   height: 100%;
   overflow-x: hidden; 
+  background: linear-gradient(135deg, #290129, #433e3e);
 }
 
 body {
@@ -41,12 +42,12 @@ nav ul {
 
 nav ul li {
   list-style: none;
-  margin: 0 15px; /* adds space between each item */
+  margin: 0 15px; 
 }
 
 nav ul li a {
   text-decoration: none;
-  color: #ffffff; /* or your preferred color */
+  color: #ffffff; 
   font-weight: 500;
   padding: 8px 12px;
   transition: 0.3s ease;
@@ -72,7 +73,6 @@ nav ul li button:hover{
     color: #bf00ff;
     background-color: #fff;
     transition: 0.3s ease;
-
 }
 
 .landing {
@@ -111,8 +111,6 @@ nav ul li button:hover{
   font-size: 3.2rem;
   margin-bottom: 10px;
   color: #f2aadf;
-  
-  
 }
 
 .landing .overlay h1 b{
@@ -126,7 +124,6 @@ nav ul li button:hover{
 
 .about-section {
     display: flex;
-    background: linear-gradient(135deg, #290129, #433e3e);
     color: #b1d3e2;
     padding: 60px 20px;
     text-align: center;
@@ -176,10 +173,38 @@ nav ul li button:hover{
   height: 500px;
   width: 950px;
 }
+
 .about-section .abtimg img {
   width: 100%;
   height: 100%;
   object-fit: cover;     
   display: block;  
   border-radius: 30%; 
+}
+
+
+
+.wcu-section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #b1d3e2;
+    padding: 30px 50px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.wcu-section h2 b{
+    color: #8d4cc5;
+}
+
+.wcu-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #b1d3e2;
+    padding: 30px 50px;
+    
+}
+
+.wcu-container ul{
+  font-size: 20px;
 }
