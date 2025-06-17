@@ -188,6 +188,7 @@ nav ul li button:hover{
 }
 .about-section p b{
     color: #9c2bfd;
+    text-shadow: 2px 2px 4px rgb(0, 0, 0);
 }
 .about-section button {
     margin-top: 30px;
