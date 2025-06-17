@@ -363,6 +363,7 @@ footer {
 
 .footer-socials .social-icons {
   text-align: center;
+  
 }
 
 .footer-socials .social-icons a {
@@ -370,10 +371,17 @@ footer {
   color: #bf00ff;
   font-size: 1.5rem;
   transition: 0.3s ease;
+    backdrop-filter: blur(8px);
+  background: rgba(255, 255, 255, 0.08);
+  border-radius: 10px;
+  padding: 8px;
 }
 
 .footer-socials .social-icons a:hover {
   transform: scale(1.2);
+    background: #bf00ff;
+  color: #ffffff;
+
 }
 
 .footer-bottom {
