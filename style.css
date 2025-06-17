@@ -114,6 +114,8 @@ nav ul li button:hover{
   padding: 20px;
   box-shadow: 10px 10px 5px rgb(11, 170, 182);
   border-radius: 20px;
+  background: rgba(14, 1, 1, 0.815);
+  backdrop-filter: blur(2px);
 }
 
 .landing .overlay h1 {
@@ -121,7 +123,7 @@ nav ul li button:hover{
   margin-bottom: 10px;
   color: #f2aadf;
   animation: landing 2s ease-in-out;
-  background: rgba(14, 0, 0, 0.349);
+  background: rgba(253, 253, 253, 0.142);
   backdrop-filter: blur(3px);
   padding: 10px;
   border-radius: 12px;
@@ -142,7 +144,7 @@ nav ul li button:hover{
   font-weight: 800;
   color: #b1d3e2;
   animation: para 2s ease-in-out;
-  background: rgba(14, 0, 0, 0.349);
+  background: rgba(253, 253, 253, 0.142);
   backdrop-filter: blur(3px);
   padding: 10px;
   border-radius: 12px;
@@ -257,5 +259,39 @@ nav ul li button:hover{
 }
 
 .wcu-container ul{
-  font-size: 25px;
+  font-size: 24px;
+  list-style: none;
+  line-height: 50px;
+}
+
+.wcubutton{
+  background: rgba(206, 192, 213, 0.164);
+  backdrop-filter: blur(10px);
+  padding: 20px 5px;
+  border-radius: 12px;
+}
+
+.wcubutton p{
+  font-size: 1.8rem;
+  color: rgb(255, 255, 255);
+  font-weight: bolder;
+}
+
+.wcubutton button{
+    margin-top: 10px;
+    margin-left: 50px;
+    padding: 10px 30px;
+    background: #bf00ff;
+    border: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 15px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.wcubutton button:hover {
+    background: #fff;
+    color: #bf00ff;
 }
