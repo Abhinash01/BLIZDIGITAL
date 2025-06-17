@@ -250,34 +250,28 @@ nav ul li button:hover{
 }
 
 .wcu-container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+
     color: #b1d3e2;
-    padding: 30px 50px;
+    padding: 10px 50px;
     
 }
 
 .wcu-container ul{
-  font-size: 24px;
+  font-size: 2rem;
   list-style: none;
-  line-height: 50px;
+  line-height: 6vw;
 }
 
-.wcubutton{
-  background: rgba(206, 192, 213, 0.164);
-  backdrop-filter: blur(10px);
-  padding: 20px 5px;
-  border-radius: 12px;
+.call-section{
 }
 
-.wcubutton p{
+.call-section p{
   font-size: 1.8rem;
   color: rgb(255, 255, 255);
   font-weight: bolder;
 }
 
-.wcubutton button{
+.call-section button{
     margin-top: 10px;
     margin-left: 50px;
     padding: 10px 30px;
@@ -291,7 +285,7 @@ nav ul li button:hover{
     transition: 0.3s ease;
 }
 
-.wcubutton button:hover {
+.call-section button:hover {
     background: #fff;
     color: #bf00ff;
 }
