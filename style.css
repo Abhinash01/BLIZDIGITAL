@@ -233,6 +233,7 @@ nav ul li button:hover{
 }
 .wcu-section h2 b{
     color: #8d4cc5;
+    text-shadow: 2px 2px 4px rgb(0, 0, 0);
 }
 
 .wcu-container {
