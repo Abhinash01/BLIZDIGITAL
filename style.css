@@ -111,6 +111,14 @@ nav ul li button:hover{
   font-size: 3.2rem;
   margin-bottom: 10px;
   color: #f2aadf;
+  animation: landing 2s ease-in-out;
+}
+
+@keyframes landing {
+  0%{
+    translate: 100%;
+    scale: 1;
+  }
 }
 
 .landing .overlay h1 b{
@@ -120,6 +128,13 @@ nav ul li button:hover{
   font-size: 2.2rem;
   font-weight: 800;
   color: #b1d3e2;
+  animation: para 2s ease-in-out;
+}
+@keyframes para{
+  0%{
+    translate: -100%;
+    scale: 1;
+  }
 }
 
 .about-section {
@@ -138,7 +153,21 @@ nav ul li button:hover{
     font-size: 2.5rem;
     margin-bottom: 20px;
     color: #b1d3e2;
+    animation: topbottom 2s ease-in;
+    animation-delay: 2s;
 }
+
+@keyframes topbottom {
+  0% {
+    transform: translateY(-100px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
 .about-section h2 b{
     color: #8d4cc5;
 }
