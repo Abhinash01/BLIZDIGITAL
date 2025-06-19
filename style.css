@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:wght@500&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+
+
 * {
   margin: 0;
   padding: 0;
@@ -220,7 +224,7 @@ nav ul li button:hover{
   height: 100%;
   object-fit: cover;     
   display: block;  
-  border-radius: 30%; 
+  border-radius: 20px;
   box-shadow: 10px 10px 5px rgb(11, 170, 182);
 }
 
@@ -246,7 +250,7 @@ nav ul li button:hover{
 }
 
 .wcu-container ul{
-  font-size: 1.8rem;
+  font-size: 1.6rem;
   list-style: none;
   line-height: 6vw;
 }
@@ -256,6 +260,7 @@ nav ul li button:hover{
   flex-direction: column;
   align-items: center;
 }
+
 
 .call-section h2{
   margin-top: 4vw;
@@ -290,8 +295,9 @@ footer {
   background: #0d0d0d;
   margin-top: 30px;
   color: #b1d3e2;
-  padding: 40px 20px 20px;
+  padding: 60px 20px 40px;
   font-family: 'Poppins', sans-serif;
+  min-height: 300px;
 }
 
 .footer-container {
