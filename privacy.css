@@ -96,6 +96,10 @@ nav ul li button:hover{
 .heading h2{
     color: #f2aadf;
     font-size: 5vw;
+  background: rgba(117, 97, 97, 0.139);
+  backdrop-filter: blur(3px);
+  padding: 10px;
+  border-radius: 12px;
 }
 
 .heading h2 b{
