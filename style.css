@@ -10,7 +10,9 @@ html, body {
   overflow-x: hidden; 
   background: #250433;
   background: linear-gradient(117deg, rgba(37, 4, 51, 1) 2%, rgba(0, 43, 43, 1) 50%, rgba(37, 4, 51, 1) 100%);
+  font-family: "Montserrat", sans-serif;
 }
+
 
 body {
   overflow-y: scroll;
@@ -119,7 +121,7 @@ nav ul li button:hover{
 }
 
 .landing .overlay h1 {
-  font-size: 2.5rem;
+  font-size: 2rem;
   margin-bottom: 10px;
   color: #f2aadf;
   animation: landing 2s ease-in-out;
@@ -140,7 +142,7 @@ nav ul li button:hover{
     color: #9c2bfd;
 }
 .landing .overlay p {
-  font-size: 2.2rem;
+  font-size: 1.8rem;
   font-weight: 800;
   color: #b1d3e2;
   animation: para 2s ease-in-out;
@@ -244,7 +246,7 @@ nav ul li button:hover{
 }
 
 .wcu-container ul{
-  font-size: 2rem;
+  font-size: 1.8rem;
   list-style: none;
   line-height: 6vw;
 }
