@@ -172,20 +172,6 @@ nav ul li button:hover{
     font-size: 2.5rem;
     margin-bottom: 20px;
     color: #b1d3e2;
-    animation: topbottom 2s ease-in;
-    animation-delay: 2s;
-    
-}
-
-@keyframes topbottom {
-  0% {
-    transform: translateY(-100px);
-    opacity: 0;
-  }
-  100% {
-    transform: translateY(0);
-    opacity: 1;
-  }
 }
 
 .about-section h2 b{
