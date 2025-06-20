@@ -41,11 +41,13 @@ nav{
   display: flex;
 }
 
-.mobile-menu-icon {
+.hamburger-icon {
   display: none;
-  color: #9803e2;
-  font-size: 2.5rem;
+  font-size: 2rem;
+  font-weight: bolder;
+  color: #bf00ff;
   cursor: pointer;
+  z-index: 1001;
 }
 
 nav img{
