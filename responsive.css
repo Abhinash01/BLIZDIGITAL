@@ -177,3 +177,15 @@
   }
 
 }
+
+
+/* Responsive Design For Landing Page */
+.content h4 {
+  color: #9c2bfd;
+  margin-bottom: 10px;
+  font-size: 2vh;
+}
+
+.heading h2{
+    font-size: 6vw;
+}
