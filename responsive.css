@@ -1,6 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:wght@500&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+
+
 /* Responsive Design For Landing Page */
 
 /* Mobile Screen */ 
+
+*{
+      font-family: "Montserrat", sans-serif;
+
+}
 
 @media (max-width: 768px) {
   .hamburger-icon {
@@ -78,7 +87,7 @@
   .landing .overlay p {
     font-size: 1rem;
   }
-}
+
 
   .about-section {
     display: flex;
@@ -93,6 +102,7 @@
 
 .about-container button{
     margin-bottom: 30px;
+    font-size: larger;
 }
 
 .about-section .abtimg{
@@ -100,4 +110,70 @@
     width: 43vh;
 }
 
+.wcu-container ul{
+  font-size: 1.4rem;
+  list-style: none;
+  line-height: 3vh;
 
+}
+.wcu-container ul li{
+    margin-bottom:3vh;
+}
+
+  footer {
+    padding: 40px 15px;
+    text-align: center;
+  }
+
+  .footer-container {
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+  }
+
+  .footer-container div {
+    min-width: unset;
+  }
+
+  .footer-brand img {
+    height: 80px;
+    width: auto;
+  }
+
+  .footer-links ul,
+  .footer-contact ul {
+    padding: 0;
+  }
+
+  .footer-links ul li,
+  .footer-contact ul li {
+    margin: 10px 0;
+  }
+
+  .footer-socials .social-icons a {
+    font-size: 1.4rem;
+    padding: 10px;
+  }
+
+  .footer-socials h3{
+    margin-bottom: 2vh;
+  }
+  .footer-bottom {
+    flex-direction: column;
+    gap: 15px;
+    text-align: center;
+    padding-top: 30px;
+  }
+
+  .created-by {
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 3vh;
+  }
+
+  .copyright p {
+    font-size: 0.9rem;
+    line-height: 3vh;
+  }
+
+}
