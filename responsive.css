@@ -45,16 +45,17 @@
   }
 
   /* Responsive Design for Landing Section */
-@media (max-width: 768px) {
-  .landing {
-    height: auto;
-    padding: 20px 0;
+
+    .landing {
+    height: 100vh; /* Full screen height on mobile */
+    position: relative;
   }
 
   .landing img {
-    width: 90%;
-    height: auto;
-    border-radius: 12px;
+    width: 80%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 0;
   }
 
   .landing .overlay {
@@ -63,24 +64,40 @@
     left: 50%;
     transform: translate(-50%, -50%);
     width: 90%;
-    height: auto;
     padding: 15px;
-    border-radius: 12px;
-    box-shadow: 0 0 15px rgba(11, 170, 182, 0.3);
+    background: rgba(0, 0, 0, 0.6);
+    backdrop-filter: blur(3px);
+    border-radius: 10px;
+    text-align: center;
   }
 
   .landing .overlay h1 {
-    font-size: 1.4rem;
-    line-height: 1.4;
-    padding: 8px;
-    margin-bottom: 10px;
+    font-size: 1.5rem;
   }
 
   .landing .overlay p {
     font-size: 1rem;
-    font-weight: 600;
-    padding: 8px;
   }
 }
 
+  .about-section {
+    display: flex;
+    flex-direction: column;
+    color: #b1d3e2;
+    text-align: center;
 }
+
+.about-container p{
+    font-size: 1.3rem;
+}
+
+.about-container button{
+    margin-bottom: 30px;
+}
+
+.about-section .abtimg{
+    height: 30vh;
+    width: 43vh;
+}
+
+
