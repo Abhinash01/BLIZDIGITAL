@@ -37,6 +37,17 @@ nav{
     padding: 10PX 30px;
 }
 
+.nav-links {
+  display: flex;
+}
+
+.mobile-menu-icon {
+  display: none;
+  color: #9803e2;
+  font-size: 2.5rem;
+  cursor: pointer;
+}
+
 nav img{
     height: 100px;
     width: 200px;
