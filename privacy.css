@@ -6,10 +6,11 @@
   box-sizing: border-box;
 }
 
-html, body {
+html,
+body {
   width: 100%;
   height: 100%;
-  overflow-x: hidden; 
+  overflow-x: hidden;
   font-family: "Montserrat", sans-serif;
 }
 
@@ -18,26 +19,40 @@ body {
 
 }
 
-.hero{
-    height: 100vh;
-    width: 100%;
-    min-height: 100vh; 
-    overflow: hidden; 
-    overflow-x: hidden;
-    background: linear-gradient(117deg, rgba(37, 4, 51, 1) 2%, rgba(0, 43, 43, 1) 50%, rgba(37, 4, 51, 1) 100%);
+.hero {
+  height: 100vh;
+  width: 100%;
+  min-height: 100vh;
+  overflow: hidden;
+  overflow-x: hidden;
+  background: linear-gradient(117deg, rgba(37, 4, 51, 1) 2%, rgba(0, 43, 43, 1) 50%, rgba(37, 4, 51, 1) 100%);
 }
 
-nav{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10PX 30px;
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10PX 30px;
 }
 
-nav img{
-    height: 100px;
-    width: 200px;
+.nav-links {
+  display: flex;
 }
+
+.hamburger-icon {
+  display: none;
+  font-size: 2rem;
+  font-weight: bolder;
+  color: #bf00ff;
+  cursor: pointer;
+  z-index: 1001;
+}
+
+nav img {
+  height: 100px;
+  width: 200px;
+}
+
 nav ul {
   display: flex;
   align-items: center;
@@ -50,12 +65,12 @@ nav ul {
 
 nav ul li {
   list-style: none;
-  margin: 0 15px; 
+  margin: 0 15px;
 }
 
 nav ul li a {
   text-decoration: none;
-  color: #ffffff; 
+  color: #ffffff;
   font-weight: 500;
   font-size: large;
   padding: 8px 10px;
@@ -63,12 +78,12 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-  color: #bf00ff; 
+  color: #bf00ff;
 }
 
 nav ul li button {
   padding: 8px 16px;
-  background: #bf00ff; 
+  background: #bf00ff;
   border: none;
   color: #fff;
   cursor: pointer;
@@ -78,10 +93,20 @@ nav ul li button {
 }
 
 
-nav ul li button:hover{
-    color: #bf00ff;
-    background-color: #fff;
-    transition: 0.3s ease;
+nav ul li button:hover {
+  color: #bf00ff;
+  background-color: #fff;
+  transition: 0.3s ease;
+}
+
+marquee {
+  color: whitesmoke;
+  background-color: #bf00ff;
+  padding: 10px 0;
+  margin: 10px 20px;
+  font-weight: bolder;
+  border-radius: 20px;
+
 }
 
 
@@ -93,17 +118,17 @@ nav ul li button:hover{
   justify-items: center;
 }
 
-.heading h2{
-    color: #f2aadf;
-    font-size: 5vw;
+.heading h2 {
+  color: #f2aadf;
+  font-size: 5vw;
   background: rgba(117, 97, 97, 0.139);
   backdrop-filter: blur(3px);
   padding: 10px;
   border-radius: 12px;
 }
 
-.heading h2 b{
-    color: #9c2bfd;
+.heading h2 b {
+  color: #9c2bfd;
 }
 
 .content section {
@@ -114,7 +139,7 @@ nav ul li button:hover{
 .content h4 {
   color: #9c2bfd;
   margin-bottom: 15px;
-  font-size: 2vw;
+  font-size: 4vh;
 }
 
 .content p {
@@ -129,7 +154,7 @@ footer {
   color: #b1d3e2;
   padding: 60px 20px 40px;
   font-family: 'Poppins', sans-serif;
-  min-height: 300px; 
+  min-height: 300px;
 }
 
 .footer-container {
@@ -138,13 +163,13 @@ footer {
   justify-content: space-around;
   gap: 20px;
   margin-bottom: 20px;
-  text-align: center; 
+  text-align: center;
 }
 
 .footer-container .footer-brand img {
   height: 100px;
   width: 200px;
-  margin: 0 auto; 
+  margin: 0 auto;
   display: block;
 }
 
@@ -189,7 +214,7 @@ footer {
 
 .footer-socials .social-icons {
   text-align: center;
-  
+
 }
 
 .footer-socials .social-icons a {
@@ -197,7 +222,7 @@ footer {
   color: #bf00ff;
   font-size: 1.5rem;
   transition: 0.3s ease;
-    backdrop-filter: blur(8px);
+  backdrop-filter: blur(8px);
   background: rgba(255, 255, 255, 0.08);
   border-radius: 10px;
   padding: 8px;
@@ -205,7 +230,7 @@ footer {
 
 .footer-socials .social-icons a:hover {
   transform: scale(1.2);
-    background: #bf00ff;
+  background: #bf00ff;
   color: #ffffff;
 
 }
@@ -258,13 +283,14 @@ footer {
   text-align: right;
   font-size: 0.9rem;
   color: #b1d3e2;
-  
+
 }
-.copyright a{
+
+.copyright a {
   transition: 0.3s ease;
 }
 
-.copyright a:hover{
+.copyright a:hover {
   color: #bf00ff;
   text-decoration: underline;
 }
