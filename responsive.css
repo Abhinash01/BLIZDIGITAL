@@ -182,7 +182,7 @@
 
 
 
-    /* Responsive Design For Landing Page */
+    /* Responsive Design For Privacy Page */
     .content h4 {
         color: #9c2bfd;
         margin-bottom: 10px;
@@ -192,4 +192,16 @@
     .heading h2 {
         font-size: 6vw;
     }
+
+    /* Responsive Design For Terms and Condition Page */
+    .content h4 {
+        color: #9c2bfd;
+        margin-bottom: 10px;
+        font-size: 4vw;
+    }
+
+    .heading h2 {
+        font-size: 4.5vw;
+    }
+    
 }
