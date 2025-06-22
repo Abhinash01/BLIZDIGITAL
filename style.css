@@ -8,11 +8,10 @@
   box-sizing: border-box;
 }
 
-html,
-body {
+html, body {
   width: 100%;
   height: 100%;
-  overflow-x: hidden;
+  overflow-x: hidden; 
   background: #250433;
   background: linear-gradient(117deg, rgba(37, 4, 51, 1) 2%, rgba(0, 43, 43, 1) 50%, rgba(37, 4, 51, 1) 100%);
   font-family: "Montserrat", sans-serif;
@@ -23,19 +22,19 @@ body {
   overflow-y: scroll;
 }
 
-.hero {
+.hero{
 
-  height: 100vh;
-  width: 100%;
-  min-height: 100vh;
-  overflow: hidden;
+    height: 100vh;
+    width: 100%;
+    min-height: 100vh; 
+    overflow: hidden; 
 }
 
-nav {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 10PX 30px;
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10PX 30px;
 }
 
 .nav-links {
@@ -51,11 +50,10 @@ nav {
   z-index: 1001;
 }
 
-nav img {
-  height: 100px;
-  width: 200px;
+nav img{
+    height: 100px;
+    width: 200px;
 }
-
 nav ul {
   display: flex;
   align-items: center;
@@ -68,12 +66,12 @@ nav ul {
 
 nav ul li {
   list-style: none;
-  margin: 0 15px;
+  margin: 0 15px; 
 }
 
 nav ul li a {
   text-decoration: none;
-  color: #ffffff;
+  color: #ffffff; 
   font-weight: 500;
   font-size: large;
   padding: 8px 12px;
@@ -81,12 +79,12 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-  color: #bf00ff;
+  color: #bf00ff; 
 }
 
 nav ul li button {
   padding: 8px 16px;
-  background: #bf00ff;
+  background: #bf00ff; 
   border: none;
   color: #fff;
   cursor: pointer;
@@ -96,27 +94,27 @@ nav ul li button {
 }
 
 
-nav ul li button:hover {
-  color: #bf00ff;
-  background-color: #fff;
-  transition: 0.3s ease;
+nav ul li button:hover{
+    color: #bf00ff;
+    background-color: #fff;
+    transition: 0.3s ease;
 }
 
-marquee {
+marquee{
   color: whitesmoke;
   background-color: #bf00ff;
   padding: 10px 0;
   margin: 10px 20px;
   font-weight: bolder;
   border-radius: 20px;
-
+  
 }
 
 
 .landing {
   position: relative;
   width: 100%;
-  height: calc(100vh - 100px);
+  height: calc(100vh - 100px); 
   overflow: hidden;
 }
 
@@ -136,7 +134,7 @@ marquee {
   transform: translateX(-50%);
   width: 80%;
   height: 100%;
-  background: rgba(0, 0, 0, 0.7);
+  background: rgba(0, 0, 0, 0.7); 
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -162,16 +160,15 @@ marquee {
 }
 
 @keyframes landing {
-  0% {
+  0%{
     translate: 100%;
     scale: 1;
   }
 }
 
-.landing .overlay h1 b {
-  color: #9c2bfd;
+.landing .overlay h1 b{
+    color: #9c2bfd;
 }
-
 .landing .overlay p {
   font-size: 1.8rem;
   font-weight: 800;
@@ -182,69 +179,66 @@ marquee {
   padding: 10px;
   border-radius: 12px;
 }
-
-@keyframes para {
-  0% {
+@keyframes para{
+  0%{
     translate: -100%;
     scale: 1;
   }
 }
 
 .about-section {
-  display: flex;
-  color: #b1d3e2;
-  padding: 60px 20px;
-  text-align: center;
+    display: flex;
+    color: #b1d3e2;
+    padding: 60px 20px;
+    text-align: center;
 }
 
 .about-container {
-  max-width: 900px;
-  margin: auto;
+    max-width: 900px;
+    margin: auto;
 }
 
 .about-section h2 {
-  font-size: 2.5rem;
-  margin-bottom: 20px;
-  color: #b1d3e2;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #b1d3e2;
 }
 
-.about-section h2 b {
-  color: #8d4cc5;
-  text-shadow: 2px 2px 4px rgb(0, 0, 0);
+.about-section h2 b{
+    color: #8d4cc5;
+    text-shadow: 2px 2px 4px rgb(0, 0, 0);
 }
 
 .about-section p {
-  font-size: 2.1rem;
-  line-height: 1.4;
-  color: #b1d3e2;
-
+    font-size: 2.1rem;
+    line-height: 1.4;
+    color: #b1d3e2;
+    
 }
-
-.about-section p b {
-  color: #9c2bfd;
-  text-shadow: 2px 2px 4px rgb(0, 0, 0);
+.about-section p b{
+    color: #9c2bfd;
+    text-shadow: 2px 2px 4px rgb(0, 0, 0);
 }
-
 .about-section button {
-  margin-top: 30px;
-  padding: 10px 30px;
-  background: #bf00ff;
-  border: none;
-  color: #fff;
-  font-weight: bold;
-  font-size: 15px;
-  border-radius: 10px;
-  cursor: pointer;
-  transition: 0.3s ease;
+    margin-top: 30px;
+    padding: 10px 30px;
+    background: #bf00ff;
+    border: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 15px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.3s ease;
 
 }
 
 .about-section button:hover {
-  background: #fff;
-  color: #bf00ff;
+    background: #fff;
+    color: #bf00ff;
 }
 
-.about-section .abtimg {
+.about-section .abtimg{
   height: 500px;
   width: 950px;
 }
@@ -252,47 +246,47 @@ marquee {
 .about-section .abtimg img {
   width: 100%;
   height: 100%;
-  object-fit: cover;
-  display: block;
+  object-fit: cover;     
+  display: block;  
   border-radius: 20px;
   box-shadow: 10px 10px 5px rgb(11, 170, 182);
 }
 
 .wcu-section h2 {
-  font-size: 2.5rem;
-  margin-bottom: 20px;
-  color: #b1d3e2;
-  padding: 30px 50px;
-  margin-bottom: 10px;
-  text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #b1d3e2;
+    padding: 30px 50px;
+    margin-bottom: 10px;
+    text-align: center;
 }
 
-.wcu-section h2 b {
-  color: #8d4cc5;
-  text-shadow: 2px 2px 4px rgb(0, 0, 0);
+.wcu-section h2 b{
+    color: #8d4cc5;
+    text-shadow: 2px 2px 4px rgb(0, 0, 0);
 }
 
 .wcu-container {
 
-  color: #b1d3e2;
-  padding: 10px 50px;
-
+    color: #b1d3e2;
+    padding: 10px 50px;
+    
 }
 
-.wcu-container ul {
+.wcu-container ul{
   font-size: 1.6rem;
   list-style: none;
   line-height: 6vw;
 }
 
-.call-section {
+.call-section{
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
 
-.call-section h2 {
+.call-section h2{
   margin-top: 4vw;
   font-size: 1.8rem;
   color: rgb(255, 255, 255);
@@ -304,21 +298,21 @@ marquee {
   text-align: center;
 }
 
-.call-section button {
-  padding: 10px 30px;
-  background: #bf00ff;
-  border: none;
-  color: #fff;
-  font-weight: bold;
-  font-size: 15px;
-  border-radius: 10px;
-  cursor: pointer;
-  transition: 0.3s ease;
+.call-section button{
+    padding: 10px 30px;
+    background: #bf00ff;
+    border: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 15px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.3s ease;
 }
 
 .call-section button:hover {
-  background: #fff;
-  color: #bf00ff;
+    background: #fff;
+    color: #bf00ff;
 }
 
 footer {
@@ -336,13 +330,13 @@ footer {
   justify-content: space-around;
   gap: 20px;
   margin-bottom: 20px;
-  text-align: center;
+  text-align: center; 
 }
 
 .footer-container .footer-brand img {
   height: 100px;
   width: 200px;
-  margin: 0 auto;
+  margin: 0 auto; 
   display: block;
 }
 
@@ -387,7 +381,7 @@ footer {
 
 .footer-socials .social-icons {
   text-align: center;
-
+  
 }
 
 .footer-socials .social-icons a {
@@ -395,7 +389,7 @@ footer {
   color: #bf00ff;
   font-size: 1.5rem;
   transition: 0.3s ease;
-  backdrop-filter: blur(8px);
+    backdrop-filter: blur(8px);
   background: rgba(255, 255, 255, 0.08);
   border-radius: 10px;
   padding: 8px;
@@ -403,7 +397,7 @@ footer {
 
 .footer-socials .social-icons a:hover {
   transform: scale(1.2);
-  background: #bf00ff;
+    background: #bf00ff;
   color: #ffffff;
 
 }
@@ -456,14 +450,13 @@ footer {
   text-align: right;
   font-size: 0.9rem;
   color: #b1d3e2;
-
+  
 }
-
-.copyright a {
+.copyright a{
   transition: 0.3s ease;
 }
 
-.copyright a:hover {
+.copyright a:hover{
   color: #bf00ff;
   text-decoration: underline;
 }
