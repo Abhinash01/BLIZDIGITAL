@@ -12,15 +12,7 @@ html, body {
   width: 100%;
   height: 100%;
   overflow-x: hidden; 
-background: hsla(185, 66%, 74%, 1);
-
-background: linear-gradient(90deg, hsla(185, 66%, 74%, 1) 0%, hsla(221, 60%, 86%, 1) 100%);
-
-background: -moz-linear-gradient(90deg, hsla(185, 66%, 74%, 1) 0%, hsla(221, 60%, 86%, 1) 100%);
-
-background: -webkit-linear-gradient(90deg, hsla(185, 66%, 74%, 1) 0%, hsla(221, 60%, 86%, 1) 100%);
-
-filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#92E2E9", endColorstr="#C7D4F1", GradientType=1 );
+  background: linear-gradient(135deg, #007cf0, #7928ca);
   font-family: "Montserrat", sans-serif;
 }
 
@@ -52,23 +44,20 @@ nav{
   display: none;
   font-size: 2rem;
   font-weight: bolder;
-  color: #bf00ff;
+  color: white;
   cursor: pointer;
   z-index: 1001;
 }
 
 nav img{
     height: 100px;
-    width: 200px;
+    width: 150px;
 }
 nav ul {
   display: flex;
   align-items: center;
   flex-wrap: nowrap;
-  background: rgba(255, 255, 255, 0.027);
-  backdrop-filter: blur(3px);
-  padding: 10px 0;
-  border-radius: 12px;
+
 }
 
 nav ul li {
@@ -78,7 +67,7 @@ nav ul li {
 
 nav ul li a {
   text-decoration: none;
-  color: #ffffff; 
+  color: white; 
   font-weight: 500;
   font-size: large;
   padding: 8px 12px;
@@ -86,76 +75,50 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-  color: #bf00ff; 
+  background-color: purple;
+  color: white; 
+  border: 0.1px;
+  border-radius: 20px;
 }
 
-nav ul li button {
+.nav-btn {
   padding: 8px 16px;
-  background: #bf00ff; 
+  background-color: white;
+  color: black;
   border: none;
-  color: #fff;
-  cursor: pointer;
-  border-radius: 5px;
+  border-radius: 20px;
   font-weight: 600;
+  cursor: pointer;
   transition: 0.3s ease;
 }
 
-
-nav ul li button:hover{
-    color: #bf00ff;
-    background-color: #fff;
-    transition: 0.3s ease;
+.nav-btn:hover {
+  background-color: black;
+  color: white;
 }
+
 
 marquee{
   color: whitesmoke;
-  background-color: #bf00ff;
   padding: 10px 0;
   margin: 10px 20px;
   font-weight: bolder;
-  border-radius: 20px;
-  
+  border-radius: 20px; 
 }
-
 
 .landing {
   position: relative;
   width: 100%;
   height: calc(100vh - 100px); 
-  overflow: hidden;
-}
-
-.landing img {
-  width: 80%;
-  height: 100%;
-  object-fit: cover;
-  display: block;
-  margin: 0 auto;
-  border-radius: 20px;
-}
-
-.landing .overlay {
-  position: absolute;
-  top: 0;
-  left: 50%;
-  transform: translateX(-50%);
-  width: 80%;
-  height: 100%;
-  background: rgba(209, 207, 207, 0.783); 
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
+  justify-content: center; 
   text-align: center;
-  color: #ffffff;
   padding: 20px;
-  box-shadow: 10px 10px 5px rgb(11, 170, 182);
-  border-radius: 20px;
-  background: rgba(14, 1, 1, 0.815);
-  backdrop-filter: blur(2px);
 }
 
-.landing .overlay h1 {
+.landing  h1 {
   font-size: 2rem;
   margin-bottom: 10px;
   color: rgba(7, 133, 201, 0.87);
@@ -173,18 +136,17 @@ marquee{
   }
 }
 
-.landing .overlay h1 b{
-    color: #9c2bfd;
+.landing  h1 b{
+    color: #8d4cc5;
+    text-shadow: 2px 2px 4px rgb(0, 0, 0);
 }
-.landing .overlay p {
+.landing  p {
   font-size: 1.8rem;
   font-weight: 800;
-  color: #b1d3e2;
+  color: black;
   animation: para 2s ease-in-out;
-  background: rgba(253, 253, 253, 0.142);
-  backdrop-filter: blur(3px);
   padding: 10px;
-  border-radius: 12px;
+  
 }
 @keyframes para{
   0%{
@@ -195,7 +157,7 @@ marquee{
 
 .about-section {
     display: flex;
-    color: #b1d3e2;
+    color: black;
     padding: 60px 20px;
     text-align: center;
 }
@@ -208,7 +170,7 @@ marquee{
 .about-section h2 {
     font-size: 2.5rem;
     margin-bottom: 20px;
-    color: #b1d3e2;
+    color: black;
 }
 
 .about-section h2 b{
@@ -219,7 +181,7 @@ marquee{
 .about-section p {
     font-size: 2.1rem;
     line-height: 1.4;
-    color: #b1d3e2;
+    color: white;
     
 }
 .about-section p b{
@@ -246,17 +208,16 @@ marquee{
 }
 
 .about-section .abtimg{
-  height: 500px;
-  width: 950px;
+  margin-top: 7vw;
+  height:20vw;
+  width: 70vw;
 }
 
 .about-section .abtimg img {
   width: 100%;
   height: 100%;
-  object-fit: cover;     
+  object-fit: fill;     
   display: block;  
-  border-radius: 20px;
-  box-shadow: 10px 10px 5px rgb(11, 170, 182);
 }
 
 .wcu-section h2 {
@@ -275,7 +236,7 @@ marquee{
 
 .wcu-container {
 
-    color: #b1d3e2;
+    color: #ffffff;
     padding: 10px 50px;
     
 }
@@ -284,6 +245,7 @@ marquee{
   font-size: 1.6rem;
   list-style: none;
   line-height: 6vw;
+  font-weight: bolder;
 }
 
 .call-section{
@@ -300,14 +262,14 @@ marquee{
   font-weight: bolder;
   font-size: 2.5rem;
   margin-bottom: 10px;
-  color: #b1d3e2;
+  color: #ffffff;
   padding: 30px 50px;
   text-align: center;
 }
 
 .call-section button{
     padding: 10px 30px;
-    background: #bf00ff;
+    background: black;
     border: none;
     color: #fff;
     font-weight: bold;
@@ -318,8 +280,8 @@ marquee{
 }
 
 .call-section button:hover {
-    background: #fff;
-    color: #bf00ff;
+    background: white;
+    color: black;
 }
 
 footer {
@@ -342,7 +304,7 @@ footer {
 
 .footer-container .footer-brand img {
   height: 100px;
-  width: 200px;
+  width: 150px;
   margin: 0 auto; 
   display: block;
 }
