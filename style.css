@@ -51,7 +51,7 @@ nav{
 
 nav img{
     height: 100px;
-    width: 150px;
+    width: 130px;
 }
 nav ul {
   display: flex;
@@ -82,7 +82,7 @@ nav ul li a:hover {
 }
 
 .nav-btn {
-  padding: 8px 16px;
+  padding: 8px 12px;
   background-color: white;
   color: black;
   border: none;
@@ -93,7 +93,7 @@ nav ul li a:hover {
 }
 
 .nav-btn:hover {
-  background-color: black;
+  background-color: purple;
   color: white;
 }
 
@@ -104,6 +104,8 @@ marquee{
   margin: 10px 20px;
   font-weight: bolder;
   border-radius: 20px; 
+  font-size: larger;
+  background-color: black;
 }
 
 .landing {
@@ -116,17 +118,16 @@ marquee{
   justify-content: center; 
   text-align: center;
   padding: 20px;
+  padding-top: 0px;
 }
 
 .landing  h1 {
-  font-size: 2rem;
+  font-size: 2.5rem;
   margin-bottom: 10px;
-  color: rgba(7, 133, 201, 0.87);
+  color: #e0d4fd;
+  padding-top: 0px;
   animation: landing 2s ease-in-out;
-  background: rgba(253, 253, 253, 0.142);
-  backdrop-filter: blur(3px);
-  padding: 10px;
-  border-radius: 12px;
+
 }
 
 @keyframes landing {
@@ -136,14 +137,18 @@ marquee{
   }
 }
 
-.landing  h1 b{
-    color: #8d4cc5;
-    text-shadow: 2px 2px 4px rgb(0, 0, 0);
+.landing h1 b {
+  color: #0f172a;
+  text-shadow: 1px 1px 6px rgba(0, 0, 0, 0.4);
+  font-weight: 900;
+  font-size: 2.8rem;
+  letter-spacing: 1px;
 }
+
 .landing  p {
-  font-size: 1.8rem;
+  font-size: 2.2rem;
   font-weight: 800;
-  color: black;
+  color: #dcdcdc;
   animation: para 2s ease-in-out;
   padding: 10px;
   
@@ -171,30 +176,29 @@ marquee{
     font-size: 2.5rem;
     margin-bottom: 20px;
     color: black;
+    text-decoration: underline;
 }
 
-.about-section h2 b{
-    color: #8d4cc5;
-    text-shadow: 2px 2px 4px rgb(0, 0, 0);
-}
+
 
 .about-section p {
     font-size: 2.1rem;
     line-height: 1.4;
     color: white;
+    font-weight: bolder;
     
 }
 .about-section p b{
-    color: #9c2bfd;
-    text-shadow: 2px 2px 4px rgb(0, 0, 0);
+  color: #0f172a;
+  text-shadow: 1px 1px 6px rgba(0, 0, 0, 0.4);
 }
 .about-section button {
     margin-top: 30px;
     padding: 10px 30px;
-    background: #bf00ff;
+    background: white;
     border: none;
-    color: #fff;
-    font-weight: bold;
+    color: black;
+    font-weight: bolder;
     font-size: 15px;
     border-radius: 10px;
     cursor: pointer;
@@ -203,8 +207,8 @@ marquee{
 }
 
 .about-section button:hover {
-    background: #fff;
-    color: #bf00ff;
+    background: purple;
+    color: white;
 }
 
 .about-section .abtimg{
@@ -223,22 +227,20 @@ marquee{
 .wcu-section h2 {
     font-size: 2.5rem;
     margin-bottom: 20px;
-    color: #b1d3e2;
+    color: black;
     padding: 30px 50px;
     margin-bottom: 10px;
     text-align: center;
-}
+    text-decoration: underline;
+  }
 
-.wcu-section h2 b{
-    color: #8d4cc5;
-    text-shadow: 2px 2px 4px rgb(0, 0, 0);
-}
+
 
 .wcu-container {
 
     color: #ffffff;
     padding: 10px 50px;
-    
+    font-size: 2.1rem;
 }
 
 .wcu-container ul{
@@ -258,7 +260,6 @@ marquee{
 .call-section h2{
   margin-top: 4vw;
   font-size: 1.8rem;
-  color: rgb(255, 255, 255);
   font-weight: bolder;
   font-size: 2.5rem;
   margin-bottom: 10px;
@@ -269,9 +270,9 @@ marquee{
 
 .call-section button{
     padding: 10px 30px;
-    background: black;
+    background: white;
     border: none;
-    color: #fff;
+    color: black;
     font-weight: bold;
     font-size: 15px;
     border-radius: 10px;
@@ -280,8 +281,8 @@ marquee{
 }
 
 .call-section button:hover {
-    background: white;
-    color: black;
+    background: purple;
+    color: white;
 }
 
 footer {
@@ -303,8 +304,8 @@ footer {
 }
 
 .footer-container .footer-brand img {
-  height: 100px;
-  width: 150px;
+  height: 150px;
+  width: 185px;
   margin: 0 auto; 
   display: block;
 }
