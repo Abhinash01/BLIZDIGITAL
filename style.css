@@ -12,7 +12,7 @@ html, body {
   width: 100%;
   height: 100%;
   overflow-x: hidden; 
-  background: linear-gradient(135deg, #007cf0, #7928ca);
+  background: linear-gradient(to right, #007cf0, #7928ca);
   font-family: "Montserrat", sans-serif;
 }
 
@@ -44,7 +44,7 @@ nav{
   display: none;
   font-size: 2rem;
   font-weight: bolder;
-  color: white;
+  color: #fff;
   cursor: pointer;
   z-index: 1001;
 }
@@ -67,7 +67,7 @@ nav ul li {
 
 nav ul li a {
   text-decoration: none;
-  color: white; 
+  color: #fff; 
   font-weight: 500;
   font-size: large;
   padding: 8px 12px;
@@ -76,15 +76,15 @@ nav ul li a {
 
 nav ul li a:hover {
   background-color: purple;
-  color: white; 
+  color: #fff; 
   border: 0.1px;
   border-radius: 20px;
 }
 
 .nav-btn {
   padding: 8px 12px;
-  background-color: white;
-  color: black;
+  background-color: black;
+  color: orangered;
   border: none;
   border-radius: 20px;
   font-weight: 600;
@@ -93,13 +93,13 @@ nav ul li a:hover {
 }
 
 .nav-btn:hover {
-  background-color: purple;
-  color: white;
+  background-color: orangered;
+  color: black;
 }
 
 
 marquee{
-  color: whitesmoke;
+  color: #fff;
   padding: 10px 0;
   margin: 10px 20px;
   font-weight: bolder;
@@ -124,7 +124,7 @@ marquee{
 .landing  h1 {
   font-size: 2.5rem;
   margin-bottom: 10px;
-  color: #e0d4fd;
+  color: #fff;
   padding-top: 0px;
   animation: landing 2s ease-in-out;
 
@@ -148,7 +148,7 @@ marquee{
 .landing  p {
   font-size: 2.2rem;
   font-weight: 800;
-  color: #dcdcdc;
+  color: #fff;
   animation: para 2s ease-in-out;
   padding: 10px;
   
@@ -165,6 +165,7 @@ marquee{
     color: black;
     padding: 60px 20px;
     text-align: center;
+    margin-bottom: 30px
 }
 
 .about-container {
@@ -179,12 +180,10 @@ marquee{
     text-decoration: underline;
 }
 
-
-
 .about-section p {
     font-size: 2.1rem;
     line-height: 1.4;
-    color: white;
+    color: #fff;
     font-weight: bolder;
     
 }
@@ -195,7 +194,7 @@ marquee{
 .about-section button {
     margin-top: 30px;
     padding: 10px 30px;
-    background: white;
+    background: #fff;
     border: none;
     color: black;
     font-weight: bolder;
@@ -208,7 +207,7 @@ marquee{
 
 .about-section button:hover {
     background: purple;
-    color: white;
+    color: #fff;
 }
 
 .about-section .abtimg{
@@ -224,6 +223,87 @@ marquee{
   display: block;  
 }
 
+.services-section {
+  padding: 60px 20px;
+  text-align: center;
+  color: black;
+  margin-bottom: 50px
+}
+
+.services-section h2 {
+  font-size: 2.5rem;
+  margin-bottom: 40px;
+  text-decoration: underline;
+}
+
+.services-section h2 b {
+  color: black;
+  text-shadow: 2px 2px 4px rgb(0, 0, 0);
+}
+
+.services-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 30px;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.service-card {
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(10px);
+  padding: 30px;
+  border-radius: 16px;
+  text-align: center;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.service-card:hover {
+  transform: translateY(-10px);
+  background: rgba(255, 255, 255, 0.1);
+  cursor: pointer;
+}
+
+.service-card i {
+  font-size: 2.5rem;
+  margin-bottom: 15px;
+  color: #bf00ff;
+}
+
+.service-card h3 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  color: #ffffff;
+}
+
+.service-card p {
+  font-size: 1rem;
+  color: #dcdcdc;
+  margin-bottom: 15px;
+}
+
+.service-card button {
+  padding: 8px 20px;
+  background-color: black;
+  color: #fff;
+  border: none;
+  border-radius: 20px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.service-card button:hover {
+  background-color: #fff;
+  color: black;
+  cursor: pointer;
+}
+
+.wcu-section{
+  margin-bottom: 30px
+}
+
 .wcu-section h2 {
     font-size: 2.5rem;
     margin-bottom: 20px;
@@ -232,12 +312,10 @@ marquee{
     margin-bottom: 10px;
     text-align: center;
     text-decoration: underline;
+    
   }
 
-
-
 .wcu-container {
-
     color: #ffffff;
     padding: 10px 50px;
     font-size: 2.1rem;
@@ -254,6 +332,7 @@ marquee{
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-bottom: 90px
 }
 
 
@@ -270,9 +349,9 @@ marquee{
 
 .call-section button{
     padding: 10px 30px;
-    background: white;
+    background: black;
     border: none;
-    color: black;
+    color: orangered;
     font-weight: bold;
     font-size: 15px;
     border-radius: 10px;
@@ -281,8 +360,8 @@ marquee{
 }
 
 .call-section button:hover {
-    background: purple;
-    color: white;
+    background: orangered;
+    color: black;
 }
 
 footer {
