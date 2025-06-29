@@ -14,7 +14,7 @@
 @media (max-width: 768px) {
     .hamburger-icon {
         display: block;
-        padding-top: 20px;
+        padding-top: 0px;
     }
 
     .nav-links {
@@ -49,8 +49,8 @@
     }
 
     .navbar img {
-        height: 80px;
-        width: 120px;
+        height: 70px;
+        width: 90px;
     }
 
     /* Responsive Design for Landing Section */
@@ -68,18 +68,7 @@
         border-radius: 0;
     }
 
-    .landing .overlay {
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        width: 90%;
-        padding: 15px;
-        background: rgba(0, 0, 0, 0.6);
-        backdrop-filter: blur(3px);
-        border-radius: 10px;
-        text-align: center;
-    }
+
 
     .landing .overlay h1 {
         font-size: 1.5rem;
@@ -93,7 +82,7 @@
     .about-section {
         display: flex;
         flex-direction: column;
-        color: #b1d3e2;
+        color: white;
         text-align: center;
     }
 
@@ -108,7 +97,8 @@
 
     .about-section .abtimg {
         height: 30vh;
-        width: 43vh;
+        width: 40vh;
+        padding-left: 50px;
     }
 
     .wcu-container ul {
@@ -184,18 +174,20 @@
 
     /* Responsive Design For Privacy Page */
     .content h4 {
-        color: #9c2bfd;
+        
         margin-bottom: 10px;
         font-size: 4vw;
+        
     }
 
     .heading h2 {
-        font-size: 6vw;
+        font-size: 80px;
+        
     }
 
     /* Responsive Design For Terms and Condition Page */
     .content h4 {
-        color: #9c2bfd;
+        
         margin-bottom: 10px;
         font-size: 4vw;
     }
@@ -203,5 +195,5 @@
     .heading h2 {
         font-size: 4.5vw;
     }
-    
+
 }
